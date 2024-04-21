@@ -1,0 +1,140 @@
+.not_a_footer {}
+
+.green_page {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 380px;
+    background-image: url(./assets/img/background-green.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.greenpage_textone {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.46px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #8EB391;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.greenpage_tecttwo {
+    font-family: "Roboto";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 49.4px;
+    letter-spacing: 0.15199999511241913px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.greenpage_textthree {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.greenpage_textfour {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: white;
+}
+
+.span_icon {}
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    height: 250px;
+    background-color: #02291C;
+}
+
+.follow_box {}
+
+.follow_us_text {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.24px;
+    text-align: left;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.follow_buttons {
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_follow {}
+
+.button_follow_img {}
+
+.copyrighted_box {}
+
+.copyrighted_text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.24px;
+    text-align: right;
+    color: white;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .green_page{
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+    }
+    .greenpage_tecttwo{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .follow_us_text{
+        text-align: center;
+    }
+    .copyrighted_text{
+        text-align: center;
+    }
+    .follow_box{
+        margin-bottom: 15px;
+    }
+}
